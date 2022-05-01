@@ -15,7 +15,7 @@ Django 2.2.19
 ```
 pip install -r requirements.txt
 ```
-- В папке с файлом manage.py выполните команду:
+- В папке с файлом manage.py выполнить команду:
 ```
 python3 manage.py runserver
 ```
