@@ -65,7 +65,7 @@ jobs:
           script: |
             docker compose stop
             docker compose rm web
-            sudo docker image rm REPOSITORY ${{ secrets.DOCKER_USERNAME }}/yamdb:latest
+            docker rmi --force $(docker images -q '${{ secrets.DOCKER_USERNAME }}/yamdb' | uniq)
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb:latest
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
