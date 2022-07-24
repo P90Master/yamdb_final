@@ -24,4 +24,4 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 ### Авторы
-Maksim Ag, Никита Лавров, Is there Anybody out there
+Telegram: @social_creditor, @agmaksim, @nlavrov2007
