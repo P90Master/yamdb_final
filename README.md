@@ -1,6 +1,4 @@
 # Учебный проект
-### Статус
-![workflow](https://github.com/P90Master/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ### Описание
 API DB, содержащая отзывы к фильмам.
 Взаимодествия осуществляется посредством http-запросов.
